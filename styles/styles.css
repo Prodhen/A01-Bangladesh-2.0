@@ -76,15 +76,72 @@ body {
 
 .item-btn {
     border-radius: 8px;
-    background-color: rgb(84, 144, 245);
+    /* background-color: rgb(84, 144, 245); */
+    border: none;
+    padding: 5px;
+    cursor: pointer;
 }
 
-#digital-info {
+
+#vision-item-1 {
     padding: 32px;
 
     border-radius: 16px;
 
     background: rgba(84, 144, 245, 0.2);
+}
+
+#vision-item-1 .item-btn {
+
+
+    background: rgb(84, 144, 245);
+
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+
+
+}
+
+#vision-item-2 .item-btn {
+
+
+    background: rgb(84, 144, 245);
+
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+
+
+}
+
+#vision-item-3 .item-btn {
+
+
+    background: rgb(84, 144, 245);
+
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+
+
+}
+
+
+#vision-item-2 {
+    padding: 32px;
+
+    border-radius: 16px;
+
+    background: rgb(198, 228, 214);
+}
+
+#vision-item-3 {
+
+    padding: 32px;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+
 }
 
 .quote-section {
@@ -180,5 +237,125 @@ body {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 32px;
+
+}
+
+
+.donate-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+}
+
+.donate-item {
+    margin: 32px 0px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+
+
+}
+
+.donate-title {
+    color: rgb(14, 14, 14);
+
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.donate-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.other-amount {
+    padding: 20px 40px;
+    margin: 32px 0px;
+    background: rgb(255, 255, 255);
+
+}
+
+.other-amount p {
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.donate-btn {
+    background: rgb(0, 106, 80);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 32px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.btn-section {}
+
+.news-letter-section {
+    border-radius: 24px;
+
+    background: rgb(198, 228, 214);
+}
+
+.news-letter-container {
+    padding: 80px 100px 80px 100px;
+    margin: 80px 0px;
+
+}
+
+.news-letter-title {
+    text-align: center;
+
+}
+
+.news-letter-description {
+    text-align: center;
+
+}
+
+.input-btn {
+    margin: 0 auto;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    padding: 18px 40px 18px 40px;
+
+
+}
+
+input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+
+
+}
+
+.news-letter-btn {
+
+    background-color: #009688;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
 
 }
