@@ -1,3 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #F1F1F3;
+}
+
 .banner {
     display: flex;
     background-color: rgb(198, 228, 214);
@@ -6,6 +15,7 @@
     align-items: center;
     gap: 64px;
     border-radius: 24px;
+    margin: 0px 60px 80px 60px;
 }
 
 .banner-title {
@@ -28,5 +38,147 @@
     border-radius: 8px;
     background: rgb(0, 106, 80);
     border: none;
+
+}
+
+/* vision styles */
+
+.vision-section {
+    margin: 0px 60px 80px 60px;
+
+}
+
+.section-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+
+
+}
+
+.section-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+
+
+}
+
+.vision-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 14px;
+    margin: 0px 32px 32px 0px;
+}
+
+.item-btn {
+    border-radius: 8px;
+    background-color: rgb(84, 144, 245);
+}
+
+#digital-info {
+    padding: 32px;
+
+    border-radius: 16px;
+
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.quote-section {
+    background-image: url(/assets/quote-bg.png);
+    background-repeat: no-repeat;
+
+    padding: 48px 24px 48px 24px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+
+}
+
+.quote-section p {
+
+
+    color: rgba(14, 14, 14, 0.8);
+    /* font-family: Fira Sans; */
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.quoter {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.designation {
+    color: rgba(14, 14, 14, 0.6);
+
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.news-section {
+    margin: 0px 60px 80px 60px;
+}
+
+/* .news-items {
+
+    display: flex;
+
+} */
+
+.news-item {
+    padding: 48px 48px 48px 48px;
+    background: rgb(255, 255, 255);
+    border-radius: 24px;
+    display: flex;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.news-heading {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 12px 0px;
+}
+
+.news-summary {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 12px;
+}
+
+.date-time {
+    margin-top: 12px;
+}
+
+.news-icon {}
+
+.news-picture {
+    border-radius: 24px;
+    width: 408px;
+    height: 306px;
+}
+
+.news-btn {
+    background: rgb(0, 106, 80);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 32px;
 
 }
